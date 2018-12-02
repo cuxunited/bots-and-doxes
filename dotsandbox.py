@@ -43,105 +43,105 @@ while count != 0:
        
     ##square 2
     elif grid[2][1] and grid[3][0] and grid[3][2] and grid[4][1] == 1:
-            grid[3][1]=input()
+            grid[3][1]=player
             print(grid)
             print("Moves left:")
             print(count-1)
 
     elif grid[2][1] and grid[3][0] and grid[3][2] and grid[4][1] == 2:
-            grid[3][1]=input()
+            grid[3][1]=player
             print(grid)
             print("Moves left:")
             print(count-1)
 
     ##square 3
     elif grid[4][1] and grid[5][0] and grid[5][2] and grid[6][1] == 1:
-        grid[5][1]=input()
+        grid[5][1]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[4][1] and grid[5][0] and grid[5][2] and grid[6][1] == 2:
-        grid[5][1]=input()
+        grid[5][1]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 4
     elif grid[0][3] and grid[1][2] and grid[1][4] and grid[2][3] == 1:
-        grid[1][3]=input()
+        grid[1][3]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[0][3] and grid[1][2] and grid[1][4] and grid[2][3] == 2:
-        grid[1][3]=input()
+        grid[1][3]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 5
     elif grid[2][3] and grid[1][0] and grid[3][4] and grid[4][3] == 1:
-        grid[3][6]=input()
+        grid[3][6]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[2][3] and grid[1][0] and grid[3][4] and grid[4][3] == 2:
-        grid[3][6]=input()
+        grid[3][6]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 6
     elif grid[4][3] and grid[5][2] and grid[5][4] and grid[6][3] == 1:
-        grid[5][3]=input()
+        grid[5][3]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[4][3] and grid[5][2] and grid[5][4] and grid[6][3] == 2:
-        grid[5][3]=input()
+        grid[5][3]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 7
     elif grid[0][5] and grid[1][4] and grid[1][6] and grid[2][5] == 1:
-        grid[1][5]=input()
+        grid[1][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
 
     elif grid[0][5] and grid[1][4] and grid[1][6] and grid[2][5] == 2:
-        grid[1][5]=input()
+        grid[1][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 8
     elif grid[2][5] and grid[3][4] and grid[3][6] and grid[4][5] == 1:
-        grid[3][5]=input()
+        grid[3][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[2][5] and grid[3][4] and grid[3][6] and grid[4][5] == 2:
-        grid[3][5]=input()
+        grid[3][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     ##square 9
     elif grid[4][5] and grid[5][4] and grid[5][6] and grid[6][5] == 1:
-        grid[5][5]=input()
+        grid[5][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
 
     elif grid[4][5] and grid[5][4] and grid[5][6] and grid[6][5] == 2:
-        grid[5][5]=input()
+        grid[5][5]=player
         print(grid)
         print("Moves left:")
         print(count-1)
